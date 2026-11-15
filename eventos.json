@@ -1,7 +1,7 @@
 {
   "version": 1,
   "semana": "2026-11-16",
-  "actualizado": "2026-11-15T08:44:47Z",
+  "actualizado": "2026-11-15T08:59:24Z",
   "eventos": [
     {
       "id": "2026-11-16-faroe-islands-vs-moldova",
@@ -24,7 +24,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-16T15:00:00Z",
       "fin": "2026-11-16T17:15:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 4"
+      ],
       "palabras": [
         "Kazakhstan",
         "Slovakia"
@@ -52,7 +54,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-16T17:00:00Z",
       "fin": "2026-11-16T19:15:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
         "Iceland",
         "Luxembourg"
@@ -80,7 +84,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-16T19:45:00Z",
       "fin": "2026-11-16T22:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN"
+      ],
       "palabras": [
         "Germany",
         "Netherlands"
@@ -108,7 +114,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-16T19:45:00Z",
       "fin": "2026-11-16T22:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 4"
+      ],
       "palabras": [
         "Greece",
         "Serbia"
@@ -276,7 +284,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-17T19:45:00Z",
       "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 4"
+      ],
       "palabras": [
         "Denmark",
         "Norway"
@@ -360,7 +370,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-17T19:45:00Z",
       "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN"
+      ],
       "palabras": [
         "Wales",
         "Portugal"
@@ -374,7 +386,10 @@
       "tipo": "futbol",
       "inicio": "2026-11-17T23:00:00Z",
       "fin": "2026-11-18T01:15:00Z",
-      "canales": [],
+      "canales": [
+        "Mega",
+        "Mega 2"
+      ],
       "palabras": [
         "Chile",
         "Colombia"
@@ -472,7 +487,9 @@
       "tipo": "basquet",
       "inicio": "2026-11-19T00:00:00Z",
       "fin": "2026-11-19T02:30:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
         "Bucks",
         "Heat"
@@ -570,7 +587,9 @@
       "tipo": "basquet",
       "inicio": "2026-11-19T01:00:00Z",
       "fin": "2026-11-19T03:30:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
         "Warriors",
         "Mavericks"
@@ -682,7 +701,9 @@
       "tipo": "futbol",
       "inicio": "2026-11-20T19:30:00Z",
       "fin": "2026-11-20T21:45:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 3"
+      ],
       "palabras": [
         "Bayern Múnich",
         "Köln"
@@ -739,7 +760,7 @@
       "inicio": "2026-11-20T23:00:00Z",
       "fin": "2026-11-21T01:15:00Z",
       "canales": [
-        "TNT Sports"
+        "TNT SPORTS PREMIUM"
       ],
       "palabras": [
         "Vélez",
@@ -1231,7 +1252,7 @@
       "inicio": "2026-11-21T18:00:00Z",
       "fin": "2026-11-21T20:15:00Z",
       "canales": [
-        "ESPN Premium"
+        "ESPN PREMIUM"
       ],
       "palabras": [
         "Defensa y Justicia",
@@ -1331,7 +1352,7 @@
       "inicio": "2026-11-21T20:00:00Z",
       "fin": "2026-11-21T22:15:00Z",
       "canales": [
-        "TNT Sports"
+        "TNT SPORTS PREMIUM"
       ],
       "palabras": [
         "Argentinos Juniors",
@@ -1669,7 +1690,7 @@
       "inicio": "2026-11-22T19:00:00Z",
       "fin": "2026-11-22T21:15:00Z",
       "canales": [
-        "ESPN Premium"
+        "ESPN PREMIUM"
       ],
       "palabras": [
         "Rosario Central",
@@ -1755,7 +1776,7 @@
       "inicio": "2026-11-22T22:00:00Z",
       "fin": "2026-11-23T00:15:00Z",
       "canales": [
-        "TNT Sports"
+        "TNT SPORTS PREMIUM"
       ],
       "palabras": [
         "River",
@@ -1841,7 +1862,7 @@
       "inicio": "2026-11-23T01:00:00Z",
       "fin": "2026-11-23T03:15:00Z",
       "canales": [
-        "ESPN Premium"
+        "ESPN PREMIUM"
       ],
       "palabras": [
         "Instituto",
