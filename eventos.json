@@ -198,7 +198,8 @@
         "España",
         "Inglaterra"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/espana-inglaterra.jpg"
     },
     {
       "id": "2026-11-15-francia-vs-turquia",
@@ -518,7 +519,8 @@
         "Alemania",
         "Países Bajos"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/alemania-paises-bajos.jpg"
     },
     {
       "id": "2026-11-16-gibraltar-vs-malta",
@@ -1633,7 +1635,8 @@
         "Prochazka",
         "Stirling"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/ufc-prochazka-stirling.jpg"
     },
     {
       "id": "2026-11-21-estrasburgo-vs-brest",
@@ -1784,7 +1787,8 @@
         "Las Vegas",
         "F1"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/f1-las-vegas.jpg"
     },
     {
       "id": "2026-11-22-juventus-vs-venezia",
