@@ -1,488 +1,363 @@
 {
   "version": 1,
   "semana": "2026-11-16",
-  "actualizado": "2026-11-15T08:59:24Z",
+  "actualizado": "2026-11-15T09:11:42Z",
   "eventos": [
     {
-      "id": "2026-11-16-faroe-islands-vs-moldova",
-      "titulo": "Faroe Islands vs Moldova",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T15:00:00Z",
-      "fin": "2026-11-16T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Faroe Islands",
-        "Moldova"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-kazakhstan-vs-slovakia",
-      "titulo": "Kazakhstan vs Slovakia",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T15:00:00Z",
-      "fin": "2026-11-16T17:15:00Z",
-      "canales": [
-        "ESPN 4"
-      ],
-      "palabras": [
-        "Kazakhstan",
-        "Slovakia"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-estonia-vs-bulgaria",
-      "titulo": "Estonia vs Bulgaria",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T17:00:00Z",
-      "fin": "2026-11-16T19:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Estonia",
-        "Bulgaria"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-iceland-vs-luxembourg",
-      "titulo": "Iceland vs Luxembourg",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T17:00:00Z",
-      "fin": "2026-11-16T19:15:00Z",
+      "id": "2026-11-16-nitto-atp-finals-dia-2-sesion-1",
+      "titulo": "Nitto ATP Finals - Día 2 - Sesión 1",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-16T13:00:00Z",
+      "fin": "2026-11-16T16:00:00Z",
       "canales": [
         "ESPN 2"
       ],
       "palabras": [
-        "Iceland",
-        "Luxembourg"
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-16-lithuania-vs-liechtenstein",
-      "titulo": "Lithuania vs Liechtenstein",
+      "id": "2026-11-16-kazajistan-vs-eslovaquia",
+      "titulo": "Kazajistán vs Eslovaquia",
       "competencia": "UEFA Nations League",
       "tipo": "futbol",
-      "inicio": "2026-11-16T17:00:00Z",
-      "fin": "2026-11-16T19:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Lithuania",
-        "Liechtenstein"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-germany-vs-netherlands",
-      "titulo": "Germany vs Netherlands",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T19:45:00Z",
-      "fin": "2026-11-16T22:00:00Z",
-      "canales": [
-        "ESPN"
-      ],
-      "palabras": [
-        "Germany",
-        "Netherlands"
-      ],
-      "destacado": true
-    },
-    {
-      "id": "2026-11-16-gibraltar-vs-malta",
-      "titulo": "Gibraltar vs Malta",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T19:45:00Z",
-      "fin": "2026-11-16T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Gibraltar",
-        "Malta"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-greece-vs-serbia",
-      "titulo": "Greece vs Serbia",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T19:45:00Z",
-      "fin": "2026-11-16T22:00:00Z",
+      "inicio": "2026-11-16T14:45:00Z",
+      "fin": "2026-11-16T17:00:00Z",
       "canales": [
         "ESPN 4"
       ],
       "palabras": [
-        "Greece",
+        "Kazajistán",
+        "Eslovaquia"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-16-copa-potrero-2026-fase-de-grupos-4-partidos",
+      "titulo": "Copa Potrero 2026 - Fase de grupos (4 partidos)",
+      "competencia": "Copa Potrero 2026",
+      "tipo": "futbol",
+      "inicio": "2026-11-16T16:30:00Z",
+      "fin": "2026-11-16T19:30:00Z",
+      "canales": [
+        "ESPN 3"
+      ],
+      "palabras": [
+        "Copa Potrero",
+        "Potrero 2026"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-16-islandia-vs-luxemburgo",
+      "titulo": "Islandia vs Luxemburgo",
+      "competencia": "UEFA Nations League",
+      "tipo": "futbol",
+      "inicio": "2026-11-16T16:45:00Z",
+      "fin": "2026-11-16T19:00:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Islandia",
+        "Luxemburgo"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-16-alemania-vs-paises-bajos",
+      "titulo": "Alemania vs Países Bajos",
+      "competencia": "UEFA Nations League",
+      "tipo": "futbol",
+      "inicio": "2026-11-16T19:30:00Z",
+      "fin": "2026-11-16T21:45:00Z",
+      "canales": [
+        "ESPN"
+      ],
+      "palabras": [
+        "Alemania",
+        "Países Bajos"
+      ],
+      "destacado": true
+    },
+    {
+      "id": "2026-11-16-grecia-vs-serbia",
+      "titulo": "Grecia vs Serbia",
+      "competencia": "UEFA Nations League",
+      "tipo": "futbol",
+      "inicio": "2026-11-16T19:30:00Z",
+      "fin": "2026-11-16T21:45:00Z",
+      "canales": [
+        "ESPN 4"
+      ],
+      "palabras": [
+        "Grecia",
         "Serbia"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-16-north-macedonia-vs-slovenia",
-      "titulo": "North Macedonia vs Slovenia",
+      "id": "2026-11-16-nitto-atp-finals-dia-2-sesion-2",
+      "titulo": "Nitto ATP Finals - Día 2 - Sesión 2",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-16T19:30:00Z",
+      "fin": "2026-11-16T22:30:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Nitto",
+        "ATP Finals"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-16-suiza-vs-escocia",
+      "titulo": "Suiza vs Escocia",
       "competencia": "UEFA Nations League",
       "tipo": "futbol",
-      "inicio": "2026-11-16T19:45:00Z",
-      "fin": "2026-11-16T22:00:00Z",
-      "canales": [],
+      "inicio": "2026-11-16T19:30:00Z",
+      "fin": "2026-11-16T21:45:00Z",
+      "canales": [
+        "ESPN 5"
+      ],
       "palabras": [
-        "North Macedonia",
-        "Slovenia"
+        "Suiza",
+        "Escocia"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-16-switzerland-vs-scotland",
-      "titulo": "Switzerland vs Scotland",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-16T19:45:00Z",
-      "fin": "2026-11-16T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Switzerland",
-        "Scotland"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-bulls-vs-cavaliers",
-      "titulo": "Bulls vs Cavaliers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T00:00:00Z",
-      "fin": "2026-11-17T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Bulls",
-        "Cavaliers"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-grizzlies-vs-wizards",
-      "titulo": "Grizzlies vs Wizards",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T00:00:00Z",
-      "fin": "2026-11-17T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Grizzlies",
-        "Wizards"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-magic-vs-celtics",
-      "titulo": "Magic vs Celtics",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T00:00:00Z",
-      "fin": "2026-11-17T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Magic",
-        "Celtics"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-76ers-vs-nets",
-      "titulo": "76ers vs Nets",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T00:30:00Z",
-      "fin": "2026-11-17T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "76ers",
-        "Nets"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-rockets-vs-heat",
-      "titulo": "Rockets vs Heat",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T00:30:00Z",
-      "fin": "2026-11-17T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Rockets",
-        "Heat"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-trail-blazers-vs-timberwolves",
-      "titulo": "Trail Blazers vs Timberwolves",
-      "competencia": "NBA",
-      "tipo": "basquet",
+      "id": "2026-11-16-baltimore-ravens-vs-los-angeles-chargers",
+      "titulo": "Baltimore Ravens vs Los Angeles Chargers",
+      "competencia": "NFL",
+      "tipo": "otros",
       "inicio": "2026-11-17T01:00:00Z",
-      "fin": "2026-11-17T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Trail Blazers",
-        "Timberwolves"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-warriors-vs-pelicans",
-      "titulo": "Warriors vs Pelicans",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T01:00:00Z",
-      "fin": "2026-11-17T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Warriors",
-        "Pelicans"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-16-suns-vs-nuggets",
-      "titulo": "Suns vs Nuggets",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-17T02:00:00Z",
       "fin": "2026-11-17T04:30:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Suns",
-        "Nuggets"
+        "Baltimore Ravens",
+        "Los Angeles Chargers"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-17-bosnia-and-herzegovina-vs-romania",
-      "titulo": "Bosnia and Herzegovina vs Romania",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
+      "id": "2026-11-17-nitto-atp-finals-dia-3-sesion-1",
+      "titulo": "Nitto ATP Finals - Día 3 - Sesión 1",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-17T13:00:00Z",
+      "fin": "2026-11-17T16:00:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Bosnia and Herzegovina",
-        "Romania"
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-17-denmark-vs-norway",
-      "titulo": "Denmark vs Norway",
+      "id": "2026-11-17-copa-potrero-2026-fase-de-grupos-4-partidos",
+      "titulo": "Copa Potrero 2026 - Fase de grupos (4 partidos)",
+      "competencia": "Copa Potrero 2026",
+      "tipo": "futbol",
+      "inicio": "2026-11-17T16:30:00Z",
+      "fin": "2026-11-17T19:30:00Z",
+      "canales": [
+        "ESPN 3"
+      ],
+      "palabras": [
+        "Copa Potrero",
+        "Potrero 2026"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-17-dinamarca-vs-noruega",
+      "titulo": "Dinamarca vs Noruega",
       "competencia": "UEFA Nations League",
       "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
+      "inicio": "2026-11-17T19:30:00Z",
+      "fin": "2026-11-17T21:45:00Z",
       "canales": [
         "ESPN 4"
       ],
       "palabras": [
-        "Denmark",
-        "Norway"
+        "Dinamarca",
+        "Noruega"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-17-hungary-vs-northern-ireland",
-      "titulo": "Hungary vs Northern Ireland",
+      "id": "2026-11-17-gales-vs-portugal",
+      "titulo": "Gales vs Portugal",
       "competencia": "UEFA Nations League",
       "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Hungary",
-        "Northern Ireland"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-israel-vs-austria",
-      "titulo": "Israel vs Austria",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Israel",
-        "Austria"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-poland-vs-sweden",
-      "titulo": "Poland vs Sweden",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Poland",
-        "Sweden"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-republic-of-ireland-vs-kosovo",
-      "titulo": "Republic of Ireland vs Kosovo",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Republic of Ireland",
-        "Kosovo"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-ukraine-vs-georgia",
-      "titulo": "Ukraine vs Georgia",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Ukraine",
-        "Georgia"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-wales-vs-portugal",
-      "titulo": "Wales vs Portugal",
-      "competencia": "UEFA Nations League",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T19:45:00Z",
-      "fin": "2026-11-17T22:00:00Z",
+      "inicio": "2026-11-17T19:30:00Z",
+      "fin": "2026-11-17T21:45:00Z",
       "canales": [
         "ESPN"
       ],
       "palabras": [
-        "Wales",
+        "Gales",
         "Portugal"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-chile-vs-colombia",
-      "titulo": "Chile vs Colombia",
-      "competencia": "Amistoso internacional",
-      "tipo": "futbol",
-      "inicio": "2026-11-17T23:00:00Z",
-      "fin": "2026-11-18T01:15:00Z",
-      "canales": [
-        "Mega",
-        "Mega 2"
-      ],
-      "palabras": [
-        "Chile",
-        "Colombia"
       ],
       "destacado": true
     },
     {
-      "id": "2026-11-17-knicks-vs-raptors",
-      "titulo": "Knicks vs Raptors",
-      "competencia": "NBA",
-      "tipo": "basquet",
+      "id": "2026-11-17-nitto-atp-finals-dia-3-sesion-2",
+      "titulo": "Nitto ATP Finals - Día 3 - Sesión 2",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-17T19:30:00Z",
+      "fin": "2026-11-17T22:30:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Nitto",
+        "ATP Finals"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-17-polonia-vs-suecia",
+      "titulo": "Polonia vs Suecia",
+      "competencia": "UEFA Nations League",
+      "tipo": "futbol",
+      "inicio": "2026-11-17T19:30:00Z",
+      "fin": "2026-11-17T21:45:00Z",
+      "canales": [
+        "ESPN 5"
+      ],
+      "palabras": [
+        "Polonia",
+        "Suecia"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-17-chicago-blackhawks-vs-toronto-maple-leafs",
+      "titulo": "Chicago Blackhawks vs Toronto Maple Leafs",
+      "competencia": "NHL",
+      "tipo": "otros",
       "inicio": "2026-11-18T00:30:00Z",
-      "fin": "2026-11-18T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Knicks",
-        "Raptors"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-17-pistons-vs-spurs",
-      "titulo": "Pistons vs Spurs",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-18T01:00:00Z",
       "fin": "2026-11-18T03:30:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 3"
+      ],
       "palabras": [
-        "Pistons",
-        "Spurs"
+        "Chicago Blackhawks",
+        "Toronto Maple Leafs"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-17-trail-blazers-vs-timberwolves",
-      "titulo": "Trail Blazers vs Timberwolves",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-18T01:00:00Z",
-      "fin": "2026-11-18T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Trail Blazers",
-        "Timberwolves"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-jazz-vs-clippers",
-      "titulo": "Jazz vs Clippers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-18T03:30:00Z",
+      "id": "2026-11-18-vegas-golden-knights-vs-dallas-stars",
+      "titulo": "Vegas Golden Knights vs Dallas Stars",
+      "competencia": "NHL",
+      "tipo": "otros",
+      "inicio": "2026-11-18T03:00:00Z",
       "fin": "2026-11-18T06:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 3"
+      ],
       "palabras": [
-        "Jazz",
-        "Clippers"
+        "Vegas Golden Knights",
+        "Dallas Stars"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-18-hornets-vs-lakers",
-      "titulo": "Hornets vs Lakers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-18T04:00:00Z",
-      "fin": "2026-11-18T06:30:00Z",
-      "canales": [],
+      "id": "2026-11-18-nitto-atp-finals-dia-4-sesion-1",
+      "titulo": "Nitto ATP Finals - Día 4 - Sesión 1",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-18T13:00:00Z",
+      "fin": "2026-11-18T16:00:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Hornets",
-        "Lakers"
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-18-76ers-vs-magic",
-      "titulo": "76ers vs Magic",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T00:00:00Z",
-      "fin": "2026-11-19T02:30:00Z",
-      "canales": [],
+      "id": "2026-11-18-copa-potrero-2026-fase-de-grupos-4-partidos",
+      "titulo": "Copa Potrero 2026 - Fase de grupos (4 partidos)",
+      "competencia": "Copa Potrero 2026",
+      "tipo": "futbol",
+      "inicio": "2026-11-18T16:30:00Z",
+      "fin": "2026-11-18T19:30:00Z",
+      "canales": [
+        "ESPN 3"
+      ],
       "palabras": [
-        "76ers",
-        "Magic"
+        "Copa Potrero",
+        "Potrero 2026"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-18-bucks-vs-heat",
-      "titulo": "Bucks vs Heat",
+      "id": "2026-11-18-real-madrid-vs-inter",
+      "titulo": "Real Madrid vs Inter",
+      "competencia": "UEFA Women's Champions League",
+      "tipo": "futbol",
+      "inicio": "2026-11-18T17:30:00Z",
+      "fin": "2026-11-18T19:45:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Real Madrid",
+        "Inter"
+      ],
+      "destacado": true
+    },
+    {
+      "id": "2026-11-18-chelsea-vs-paris-saint-germain",
+      "titulo": "Chelsea vs Paris Saint-Germain",
+      "competencia": "UEFA Women's Champions League",
+      "tipo": "futbol",
+      "inicio": "2026-11-18T19:40:00Z",
+      "fin": "2026-11-18T21:55:00Z",
+      "canales": [
+        "ESPN 4"
+      ],
+      "palabras": [
+        "Chelsea",
+        "Paris Saint-Germain"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-18-nitto-atp-finals-dia-4-sesion-2",
+      "titulo": "Nitto ATP Finals - Día 4 - Sesión 2",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-18T19:40:00Z",
+      "fin": "2026-11-18T22:40:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Nitto",
+        "ATP Finals"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-18-miami-heat-vs-milwaukee-bucks",
+      "titulo": "Miami Heat vs Milwaukee Bucks",
       "competencia": "NBA",
       "tipo": "basquet",
       "inicio": "2026-11-19T00:00:00Z",
@@ -491,264 +366,232 @@
         "ESPN 2"
       ],
       "palabras": [
-        "Bucks",
-        "Heat"
+        "Miami Heat",
+        "Milwaukee Bucks"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-18-grizzlies-vs-cavaliers",
-      "titulo": "Grizzlies vs Cavaliers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T00:00:00Z",
-      "fin": "2026-11-19T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Grizzlies",
-        "Cavaliers"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-rockets-vs-pacers",
-      "titulo": "Rockets vs Pacers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T00:00:00Z",
-      "fin": "2026-11-19T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Rockets",
-        "Pacers"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-bulls-vs-nets",
-      "titulo": "Bulls vs Nets",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T00:30:00Z",
-      "fin": "2026-11-19T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Bulls",
-        "Nets"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-wizards-vs-raptors",
-      "titulo": "Wizards vs Raptors",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T00:30:00Z",
-      "fin": "2026-11-19T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Wizards",
-        "Raptors"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-hawks-vs-thunder",
-      "titulo": "Hawks vs Thunder",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T01:00:00Z",
-      "fin": "2026-11-19T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Hawks",
-        "Thunder"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-pistons-vs-pelicans",
-      "titulo": "Pistons vs Pelicans",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T01:00:00Z",
-      "fin": "2026-11-19T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Pistons",
-        "Pelicans"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-warriors-vs-mavericks",
-      "titulo": "Warriors vs Mavericks",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T01:00:00Z",
-      "fin": "2026-11-19T03:30:00Z",
-      "canales": [
-        "ESPN 2"
-      ],
-      "palabras": [
-        "Warriors",
-        "Mavericks"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-18-celtics-vs-nuggets",
-      "titulo": "Celtics vs Nuggets",
+      "id": "2026-11-18-dallas-mavericks-vs-golden-state-warriors",
+      "titulo": "Dallas Mavericks vs Golden State Warriors",
       "competencia": "NBA",
       "tipo": "basquet",
       "inicio": "2026-11-19T02:30:00Z",
       "fin": "2026-11-19T05:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Celtics",
-        "Nuggets"
+        "Dallas Mavericks",
+        "Golden State Warriors"
+      ],
+      "destacado": true
+    },
+    {
+      "id": "2026-11-19-nitto-atp-finals-dia-5-sesion-1",
+      "titulo": "Nitto ATP Finals - Día 5 - Sesión 1",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-19T13:00:00Z",
+      "fin": "2026-11-19T16:00:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-19-jazz-vs-lakers",
-      "titulo": "Jazz vs Lakers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T03:00:00Z",
-      "fin": "2026-11-19T05:30:00Z",
-      "canales": [],
+      "id": "2026-11-19-copa-potrero-2026-repechaje-4-partidos",
+      "titulo": "Copa Potrero 2026 - Repechaje (4 partidos)",
+      "competencia": "Copa Potrero 2026",
+      "tipo": "futbol",
+      "inicio": "2026-11-19T16:30:00Z",
+      "fin": "2026-11-19T19:30:00Z",
+      "canales": [
+        "ESPN 3"
+      ],
       "palabras": [
-        "Jazz",
-        "Lakers"
+        "Copa Potrero",
+        "Potrero 2026"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-19-suns-vs-kings",
-      "titulo": "Suns vs Kings",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-19T03:00:00Z",
-      "fin": "2026-11-19T05:30:00Z",
-      "canales": [],
+      "id": "2026-11-19-nitto-atp-finals-dia-5-sesion-2",
+      "titulo": "Nitto ATP Finals - Día 5 - Sesión 2",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-19T19:30:00Z",
+      "fin": "2026-11-19T22:30:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Suns",
-        "Kings"
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-19-clippers-vs-spurs",
-      "titulo": "Clippers vs Spurs",
-      "competencia": "NBA",
-      "tipo": "basquet",
+      "id": "2026-11-19-arsenal-vs-ol-lyonnes",
+      "titulo": "Arsenal vs OL Lyonnes",
+      "competencia": "UEFA Women's Champions League",
+      "tipo": "futbol",
+      "inicio": "2026-11-19T19:40:00Z",
+      "fin": "2026-11-19T21:55:00Z",
+      "canales": [
+        "ESPN 5"
+      ],
+      "palabras": [
+        "Arsenal",
+        "OL Lyonnes"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-19-gp-la-dolfina",
+      "titulo": "GP La Dolfina",
+      "competencia": "Polo - GP La Dolfina",
+      "tipo": "otros",
+      "inicio": "2026-11-19T22:00:00Z",
+      "fin": "2026-11-20T01:00:00Z",
+      "canales": [
+        "ESPN 3"
+      ],
+      "palabras": [
+        "La Dolfina",
+        "Polo"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-19-gp-de-las-vegas-practica-1",
+      "titulo": "GP de Las Vegas - Práctica 1",
+      "competencia": "Fórmula 1",
+      "tipo": "automovilismo",
+      "inicio": "2026-11-20T00:30:00Z",
+      "fin": "2026-11-20T01:30:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
+      "palabras": [
+        "Las Vegas",
+        "F1"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-19-houston-texans-vs-indianapolis-colts",
+      "titulo": "Houston Texans vs Indianapolis Colts",
+      "competencia": "NFL",
+      "tipo": "otros",
       "inicio": "2026-11-20T01:00:00Z",
-      "fin": "2026-11-20T03:30:00Z",
-      "canales": [],
+      "fin": "2026-11-20T04:30:00Z",
+      "canales": [
+        "ESPN 5"
+      ],
       "palabras": [
-        "Clippers",
-        "Spurs"
+        "Houston Texans",
+        "Indianapolis Colts"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-19-knicks-vs-timberwolves",
-      "titulo": "Knicks vs Timberwolves",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-20T01:00:00Z",
-      "fin": "2026-11-20T03:30:00Z",
-      "canales": [],
+      "id": "2026-11-20-gp-de-las-vegas-practica-2",
+      "titulo": "GP de Las Vegas - Práctica 2",
+      "competencia": "Fórmula 1",
+      "tipo": "automovilismo",
+      "inicio": "2026-11-20T04:00:00Z",
+      "fin": "2026-11-20T05:00:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Knicks",
-        "Timberwolves"
+        "Las Vegas",
+        "F1"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-19-trail-blazers-vs-bucks",
-      "titulo": "Trail Blazers vs Bucks",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-20T01:00:00Z",
-      "fin": "2026-11-20T03:30:00Z",
-      "canales": [],
+      "id": "2026-11-20-nitto-atp-finals-dia-6-sesion-1",
+      "titulo": "Nitto ATP Finals - Día 6 - Sesión 1",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-20T13:00:00Z",
+      "fin": "2026-11-20T16:00:00Z",
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Trail Blazers",
-        "Bucks"
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-19-warriors-vs-grizzlies",
-      "titulo": "Warriors vs Grizzlies",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-20T01:00:00Z",
-      "fin": "2026-11-20T03:30:00Z",
-      "canales": [],
+      "id": "2026-11-20-copa-potrero-2026-octavos-de-final-4-partidos",
+      "titulo": "Copa Potrero 2026 - Octavos de final (4 partidos)",
+      "competencia": "Copa Potrero 2026",
+      "tipo": "futbol",
+      "inicio": "2026-11-20T16:30:00Z",
+      "fin": "2026-11-20T19:30:00Z",
+      "canales": [
+        "ESPN 4"
+      ],
       "palabras": [
-        "Warriors",
-        "Grizzlies"
+        "Copa Potrero",
+        "Potrero 2026"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-20-bayern-munich-vs-koln",
-      "titulo": "Bayern Múnich vs Köln",
+      "id": "2026-11-20-uruguay-open-cuartos-de-final",
+      "titulo": "Uruguay Open - Cuartos de final",
+      "competencia": "Uruguay Open",
+      "tipo": "tenis",
+      "inicio": "2026-11-20T16:30:00Z",
+      "fin": "2026-11-20T19:30:00Z",
+      "canales": [
+        "ESPN 5"
+      ],
+      "palabras": [
+        "Uruguay Open",
+        "Cuartos"
+      ],
+      "destacado": false
+    },
+    {
+      "id": "2026-11-20-bayern-munich-vs-fc-koln",
+      "titulo": "Bayern Múnich vs FC Köln",
       "competencia": "Bundesliga",
       "tipo": "futbol",
-      "inicio": "2026-11-20T19:30:00Z",
-      "fin": "2026-11-20T21:45:00Z",
+      "inicio": "2026-11-20T19:20:00Z",
+      "fin": "2026-11-20T21:35:00Z",
       "canales": [
         "ESPN 3"
       ],
       "palabras": [
         "Bayern Múnich",
-        "Köln"
+        "FC Köln"
       ],
-      "destacado": false
+      "destacado": true
     },
     {
-      "id": "2026-11-20-estac-troyes-vs-le-havre",
-      "titulo": "ESTAC Troyes vs Le Havre",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-20T19:45:00Z",
-      "fin": "2026-11-20T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "ESTAC Troyes",
-        "Le Havre"
+      "id": "2026-11-20-nitto-atp-finals-dia-6-sesion-2",
+      "titulo": "Nitto ATP Finals - Día 6 - Sesión 2",
+      "competencia": "ATP Finals 2026",
+      "tipo": "tenis",
+      "inicio": "2026-11-20T19:30:00Z",
+      "fin": "2026-11-20T22:30:00Z",
+      "canales": [
+        "ESPN 2"
       ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-athletic-club-vs-espanyol",
-      "titulo": "Athletic Club vs Espanyol",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-20T20:00:00Z",
-      "fin": "2026-11-20T22:15:00Z",
-      "canales": [],
       "palabras": [
-        "Athletic Club",
-        "Espanyol"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-cobresal-vs-audax-italiano",
-      "titulo": "Cobresal vs Audax Italiano",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-20T21:00:00Z",
-      "fin": "2026-11-20T23:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Cobresal",
-        "Audax Italiano"
+        "Nitto",
+        "ATP Finals"
       ],
       "destacado": false
     },
@@ -769,142 +612,50 @@
       "destacado": false
     },
     {
-      "id": "2026-11-20-palestino-vs-union-la-calera",
-      "titulo": "Palestino vs Unión La Calera",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-20T23:30:00Z",
-      "fin": "2026-11-21T01:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Palestino",
-        "Unión La Calera"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-hornets-vs-hawks",
-      "titulo": "Hornets vs Hawks",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T00:00:00Z",
-      "fin": "2026-11-21T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Hornets",
-        "Hawks"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-magic-vs-nets",
-      "titulo": "Magic vs Nets",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
+      "id": "2026-11-20-gp-de-las-vegas-practica-3",
+      "titulo": "GP de Las Vegas - Práctica 3",
+      "competencia": "Fórmula 1",
+      "tipo": "automovilismo",
       "inicio": "2026-11-21T00:30:00Z",
-      "fin": "2026-11-21T03:00:00Z",
-      "canales": [],
+      "fin": "2026-11-21T01:30:00Z",
+      "canales": [
+        "ESPN 3"
+      ],
       "palabras": [
-        "Magic",
-        "Nets"
+        "Las Vegas",
+        "F1"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-20-pacers-vs-cavaliers",
-      "titulo": "Pacers vs Cavaliers",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T00:30:00Z",
-      "fin": "2026-11-21T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Pacers",
-        "Cavaliers"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-raptors-vs-pistons",
-      "titulo": "Raptors vs Pistons",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T00:30:00Z",
-      "fin": "2026-11-21T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Raptors",
-        "Pistons"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-pelicans-vs-thunder",
-      "titulo": "Pelicans vs Thunder",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T01:00:00Z",
-      "fin": "2026-11-21T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Pelicans",
-        "Thunder"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-wizards-vs-bulls",
-      "titulo": "Wizards vs Bulls",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T01:00:00Z",
-      "fin": "2026-11-21T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Wizards",
-        "Bulls"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-20-suns-vs-jazz",
-      "titulo": "Suns vs Jazz",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T02:30:00Z",
+      "id": "2026-11-20-marcus-breno-vs-eduardo-torres",
+      "titulo": "Marcus Breno vs Eduardo Torres",
+      "competencia": "LFA 247 - ESPN Knockout",
+      "tipo": "mma",
+      "inicio": "2026-11-21T02:00:00Z",
       "fin": "2026-11-21T05:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN 2"
+      ],
       "palabras": [
-        "Suns",
-        "Jazz"
+        "Marcus Breno",
+        "Eduardo Torres"
       ],
       "destacado": false
     },
     {
-      "id": "2026-11-21-kings-vs-lakers",
-      "titulo": "Kings vs Lakers",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T03:00:00Z",
-      "fin": "2026-11-21T05:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Kings",
-        "Lakers"
+      "id": "2026-11-20-f1-academy-las-vegas-carrera-1",
+      "titulo": "F1 Academy - Las Vegas - Carrera 1",
+      "competencia": "F1 Academy",
+      "tipo": "automovilismo",
+      "inicio": "2026-11-21T02:10:00Z",
+      "fin": "2026-11-21T03:10:00Z",
+      "canales": [
+        "ESPN 3"
       ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-rockets-vs-nuggets",
-      "titulo": "Rockets vs Nuggets",
-      "competencia": "NBA Cup",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T03:00:00Z",
-      "fin": "2026-11-21T05:30:00Z",
-      "canales": [],
       "palabras": [
-        "Rockets",
-        "Nuggets"
+        "F1 Academy",
+        "Las Vegas"
       ],
       "destacado": false
     },
@@ -915,334 +666,14 @@
       "tipo": "automovilismo",
       "inicio": "2026-11-21T04:00:00Z",
       "fin": "2026-11-21T05:00:00Z",
-      "canales": [],
+      "canales": [
+        "ESPN"
+      ],
       "palabras": [
         "Las Vegas",
         "F1"
       ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-manchester-city-vs-fulham",
-      "titulo": "Manchester City vs Fulham",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T12:30:00Z",
-      "fin": "2026-11-21T14:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Manchester City",
-        "Fulham"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-alaves-vs-deportivo-la-coruna",
-      "titulo": "Alavés vs Deportivo La Coruña",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T13:00:00Z",
-      "fin": "2026-11-21T15:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Alavés",
-        "Deportivo La Coruña"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-como-vs-cagliari",
-      "titulo": "Como vs Cagliari",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:00:00Z",
-      "fin": "2026-11-21T16:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Como",
-        "Cagliari"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-lazio-vs-lecce",
-      "titulo": "Lazio vs Lecce",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:00:00Z",
-      "fin": "2026-11-21T16:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Lazio",
-        "Lecce"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-bayer-leverkusen-vs-paderborn",
-      "titulo": "Bayer Leverkusen vs Paderborn",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:30:00Z",
-      "fin": "2026-11-21T16:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Bayer Leverkusen",
-        "Paderborn"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-borussia-monchengladbach-vs-borussia-dortmund",
-      "titulo": "Borussia Mönchengladbach vs Borussia Dortmund",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:30:00Z",
-      "fin": "2026-11-21T16:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Borussia Mönchengladbach",
-        "Borussia Dortmund"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-eintracht-frankfurt-vs-hoffenheim",
-      "titulo": "Eintracht Frankfurt vs Hoffenheim",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:30:00Z",
-      "fin": "2026-11-21T16:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Eintracht Frankfurt",
-        "Hoffenheim"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-elversberg-vs-freiburg",
-      "titulo": "Elversberg vs Freiburg",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:30:00Z",
-      "fin": "2026-11-21T16:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Elversberg",
-        "Freiburg"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-union-berlin-vs-rb-leipzig",
-      "titulo": "Union Berlin vs RB Leipzig",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T14:30:00Z",
-      "fin": "2026-11-21T16:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Union Berlin",
-        "RB Leipzig"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-aston-villa-vs-sunderland",
-      "titulo": "Aston Villa vs Sunderland",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Aston Villa",
-        "Sunderland"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-bournemouth-vs-nottingham-forest",
-      "titulo": "Bournemouth vs Nottingham Forest",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Bournemouth",
-        "Nottingham Forest"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-chelsea-vs-leeds-united",
-      "titulo": "Chelsea vs Leeds United",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Chelsea",
-        "Leeds United"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-coquimbo-unido-vs-everton",
-      "titulo": "Coquimbo Unido vs Everton",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Coquimbo Unido",
-        "Everton"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-coventry-vs-crystal-palace",
-      "titulo": "Coventry vs Crystal Palace",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Coventry",
-        "Crystal Palace"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-gp-de-portugal-motogp-sprint",
-      "titulo": "GP de Portugal - MotoGP Sprint",
-      "competencia": "MotoGP",
-      "tipo": "automovilismo",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T16:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Portugal",
-        "MotoGP"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-tottenham-vs-ipswich",
-      "titulo": "Tottenham vs Ipswich",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:00:00Z",
-      "fin": "2026-11-21T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Tottenham",
-        "Ipswich"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-rayo-vallecano-vs-valencia",
-      "titulo": "Rayo Vallecano vs Valencia",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T15:15:00Z",
-      "fin": "2026-11-21T17:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Rayo Vallecano",
-        "Valencia"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-nice-vs-psg",
-      "titulo": "Nice vs PSG",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T16:15:00Z",
-      "fin": "2026-11-21T18:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Nice",
-        "PSG"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-parma-vs-roma",
-      "titulo": "Parma vs Roma",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T17:00:00Z",
-      "fin": "2026-11-21T19:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Parma",
-        "Roma"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-newcastle-vs-arsenal",
-      "titulo": "Newcastle vs Arsenal",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T17:30:00Z",
-      "fin": "2026-11-21T19:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Newcastle",
-        "Arsenal"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-schalke-04-vs-stuttgart",
-      "titulo": "Schalke 04 vs Stuttgart",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T17:30:00Z",
-      "fin": "2026-11-21T19:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Schalke 04",
-        "Stuttgart"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-sevilla-vs-real-betis",
-      "titulo": "Sevilla vs Real Betis",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T17:30:00Z",
-      "fin": "2026-11-21T19:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Sevilla",
-        "Real Betis"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-bucks-vs-76ers",
-      "titulo": "Bucks vs 76ers",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-21T18:00:00Z",
-      "fin": "2026-11-21T20:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Bucks",
-        "76ers"
-      ],
-      "destacado": false
+      "destacado": true
     },
     {
       "id": "2026-11-21-defensa-y-justicia-vs-barracas-central",
@@ -1257,90 +688,6 @@
       "palabras": [
         "Defensa y Justicia",
         "Barracas Central"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-ufc-fight-night-prochazka-vs-stirling",
-      "titulo": "UFC Fight Night: Prochazka vs Stirling",
-      "competencia": "UFC Fight Night",
-      "tipo": "mma",
-      "inicio": "2026-11-21T18:00:00Z",
-      "fin": "2026-11-21T21:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Prochazka",
-        "Stirling"
-      ],
-      "destacado": true
-    },
-    {
-      "id": "2026-11-21-lens-vs-toulouse",
-      "titulo": "Lens vs Toulouse",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T19:45:00Z",
-      "fin": "2026-11-21T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Lens",
-        "Toulouse"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-lille-vs-lyon",
-      "titulo": "Lille vs Lyon",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T19:45:00Z",
-      "fin": "2026-11-21T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Lille",
-        "Lyon"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-monaco-vs-auxerre",
-      "titulo": "Monaco vs Auxerre",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T19:45:00Z",
-      "fin": "2026-11-21T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Monaco",
-        "Auxerre"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-napoli-vs-torino",
-      "titulo": "Napoli vs Torino",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T19:45:00Z",
-      "fin": "2026-11-21T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Napoli",
-        "Torino"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-strasbourg-vs-brest",
-      "titulo": "Strasbourg vs Brest",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T19:45:00Z",
-      "fin": "2026-11-21T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Strasbourg",
-        "Brest"
       ],
       "destacado": false
     },
@@ -1361,328 +708,6 @@
       "destacado": false
     },
     {
-      "id": "2026-11-21-real-madrid-vs-celta",
-      "titulo": "Real Madrid vs Celta",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T20:00:00Z",
-      "fin": "2026-11-21T22:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Real Madrid",
-        "Celta"
-      ],
-      "destacado": true
-    },
-    {
-      "id": "2026-11-21-o-higgins-vs-universidad-de-chile",
-      "titulo": "O'Higgins vs Universidad de Chile",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T21:00:00Z",
-      "fin": "2026-11-21T23:15:00Z",
-      "canales": [],
-      "palabras": [
-        "O'Higgins",
-        "Universidad de Chile"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-universidad-de-concepcion-vs-nublense",
-      "titulo": "Universidad de Concepción vs Ñublense",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-21T23:30:00Z",
-      "fin": "2026-11-22T01:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Universidad de Concepción",
-        "Ñublense"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-trail-blazers-vs-knicks",
-      "titulo": "Trail Blazers vs Knicks",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T00:30:00Z",
-      "fin": "2026-11-22T03:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Trail Blazers",
-        "Knicks"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-clippers-vs-mavericks",
-      "titulo": "Clippers vs Mavericks",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T01:00:00Z",
-      "fin": "2026-11-22T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Clippers",
-        "Mavericks"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-grizzlies-vs-timberwolves",
-      "titulo": "Grizzlies vs Timberwolves",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T01:00:00Z",
-      "fin": "2026-11-22T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Grizzlies",
-        "Timberwolves"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-21-pelicans-vs-spurs",
-      "titulo": "Pelicans vs Spurs",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T01:00:00Z",
-      "fin": "2026-11-22T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Pelicans",
-        "Spurs"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-celtics-vs-kings",
-      "titulo": "Celtics vs Kings",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T03:00:00Z",
-      "fin": "2026-11-22T05:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Celtics",
-        "Kings"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-gp-de-las-vegas-carrera",
-      "titulo": "GP de Las Vegas - Carrera",
-      "competencia": "Fórmula 1",
-      "tipo": "automovilismo",
-      "inicio": "2026-11-22T04:00:00Z",
-      "fin": "2026-11-22T06:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Las Vegas",
-        "F1"
-      ],
-      "destacado": true
-    },
-    {
-      "id": "2026-11-22-sassuolo-vs-genoa",
-      "titulo": "Sassuolo vs Genoa",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T11:30:00Z",
-      "fin": "2026-11-22T13:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Sassuolo",
-        "Genoa"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-barcelona-vs-villarreal",
-      "titulo": "Barcelona vs Villarreal",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T13:00:00Z",
-      "fin": "2026-11-22T15:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Barcelona",
-        "Villarreal"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-gp-de-portugal-motogp-carrera",
-      "titulo": "GP de Portugal - MotoGP Carrera",
-      "competencia": "MotoGP",
-      "tipo": "automovilismo",
-      "inicio": "2026-11-22T13:00:00Z",
-      "fin": "2026-11-22T14:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Portugal",
-        "MotoGP"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-hull-city-vs-brighton",
-      "titulo": "Hull City vs Brighton",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T14:00:00Z",
-      "fin": "2026-11-22T16:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Hull City",
-        "Brighton"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-milan-vs-frosinone",
-      "titulo": "Milan vs Frosinone",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T14:00:00Z",
-      "fin": "2026-11-22T16:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Milan",
-        "Frosinone"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-paris-fc-vs-angers",
-      "titulo": "Paris FC vs Angers",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T14:00:00Z",
-      "fin": "2026-11-22T16:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Paris FC",
-        "Angers"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-augsburg-vs-mainz",
-      "titulo": "Augsburg vs Mainz",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T14:30:00Z",
-      "fin": "2026-11-22T16:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Augsburg",
-        "Mainz"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-huachipato-vs-deportes-concepcion",
-      "titulo": "Huachipato vs Deportes Concepción",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T15:00:00Z",
-      "fin": "2026-11-22T17:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Huachipato",
-        "Deportes Concepción"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-racing-de-santander-vs-real-sociedad",
-      "titulo": "Racing de Santander vs Real Sociedad",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T15:15:00Z",
-      "fin": "2026-11-22T17:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Racing de Santander",
-        "Real Sociedad"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-lorient-vs-rennes",
-      "titulo": "Lorient vs Rennes",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T16:15:00Z",
-      "fin": "2026-11-22T18:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Lorient",
-        "Rennes"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-liverpool-vs-manchester-united",
-      "titulo": "Liverpool vs Manchester United",
-      "competencia": "Premier League",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T16:30:00Z",
-      "fin": "2026-11-22T18:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Liverpool",
-        "Manchester United"
-      ],
-      "destacado": true
-    },
-    {
-      "id": "2026-11-22-werder-bremen-vs-hamburger-sv",
-      "titulo": "Werder Bremen vs Hamburger SV",
-      "competencia": "Bundesliga",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T16:30:00Z",
-      "fin": "2026-11-22T18:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Werder Bremen",
-        "Hamburger SV"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-bologna-vs-udinese",
-      "titulo": "Bologna vs Udinese",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T17:00:00Z",
-      "fin": "2026-11-22T19:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Bologna",
-        "Udinese"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-osasuna-vs-malaga",
-      "titulo": "Osasuna vs Málaga",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T17:30:00Z",
-      "fin": "2026-11-22T19:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Osasuna",
-        "Málaga"
-      ],
-      "destacado": false
-    },
-    {
       "id": "2026-11-22-rosario-central-vs-gimnasia-de-mendoza",
       "titulo": "Rosario Central vs Gimnasia de Mendoza",
       "competencia": "Torneo Clausura - Octavos de final",
@@ -1697,76 +722,6 @@
         "Gimnasia de Mendoza"
       ],
       "destacado": false
-    },
-    {
-      "id": "2026-11-22-atalanta-vs-inter",
-      "titulo": "Atalanta vs Inter",
-      "competencia": "Serie A",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T19:45:00Z",
-      "fin": "2026-11-22T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Atalanta",
-        "Inter"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-marseille-vs-le-mans",
-      "titulo": "Marseille vs Le Mans",
-      "competencia": "Ligue 1",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T19:45:00Z",
-      "fin": "2026-11-22T22:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Marseille",
-        "Le Mans"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-getafe-vs-atletico-de-madrid",
-      "titulo": "Getafe vs Atlético de Madrid",
-      "competencia": "LaLiga",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T20:00:00Z",
-      "fin": "2026-11-22T22:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Getafe",
-        "Atlético de Madrid"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-pistons-vs-hawks",
-      "titulo": "Pistons vs Hawks",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T20:30:00Z",
-      "fin": "2026-11-22T23:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Pistons",
-        "Hawks"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-colo-colo-vs-universidad-catolica",
-      "titulo": "Colo Colo vs Universidad Católica",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T21:00:00Z",
-      "fin": "2026-11-22T23:15:00Z",
-      "canales": [],
-      "palabras": [
-        "Colo Colo",
-        "Universidad Católica"
-      ],
-      "destacado": true
     },
     {
       "id": "2026-11-22-river-vs-lanus",
@@ -1785,76 +740,6 @@
       "destacado": true
     },
     {
-      "id": "2026-11-22-thunder-vs-heat",
-      "titulo": "Thunder vs Heat",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-22T23:00:00Z",
-      "fin": "2026-11-23T01:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Thunder",
-        "Heat"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-deportes-limache-vs-deportes-la-serena",
-      "titulo": "Deportes Limache vs Deportes La Serena",
-      "competencia": "Liga de Primera Chile",
-      "tipo": "futbol",
-      "inicio": "2026-11-22T23:30:00Z",
-      "fin": "2026-11-23T01:45:00Z",
-      "canales": [],
-      "palabras": [
-        "Deportes Limache",
-        "Deportes La Serena"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-magic-vs-wizards",
-      "titulo": "Magic vs Wizards",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-23T00:00:00Z",
-      "fin": "2026-11-23T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Magic",
-        "Wizards"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-mavericks-vs-jazz",
-      "titulo": "Mavericks vs Jazz",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-23T00:00:00Z",
-      "fin": "2026-11-23T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Mavericks",
-        "Jazz"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-nuggets-vs-bulls",
-      "titulo": "Nuggets vs Bulls",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-23T00:00:00Z",
-      "fin": "2026-11-23T02:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Nuggets",
-        "Bulls"
-      ],
-      "destacado": false
-    },
-    {
       "id": "2026-11-22-instituto-vs-huracan",
       "titulo": "Instituto vs Huracán",
       "competencia": "Torneo Clausura - Octavos de final",
@@ -1867,34 +752,6 @@
       "palabras": [
         "Instituto",
         "Huracán"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-pacers-vs-knicks",
-      "titulo": "Pacers vs Knicks",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-23T01:00:00Z",
-      "fin": "2026-11-23T03:30:00Z",
-      "canales": [],
-      "palabras": [
-        "Pacers",
-        "Knicks"
-      ],
-      "destacado": false
-    },
-    {
-      "id": "2026-11-22-celtics-vs-warriors",
-      "titulo": "Celtics vs Warriors",
-      "competencia": "NBA",
-      "tipo": "basquet",
-      "inicio": "2026-11-23T01:30:00Z",
-      "fin": "2026-11-23T04:00:00Z",
-      "canales": [],
-      "palabras": [
-        "Celtics",
-        "Warriors"
       ],
       "destacado": false
     }
