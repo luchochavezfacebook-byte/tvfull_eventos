@@ -1,0 +1,50 @@
+name: Publicar eventos (GitHub Pages)
+
+# Al aprobar y mezclar un PR en main, publica eventos.json e imagenes/ en
+# https://luchochavezfacebook-byte.github.io/tvfull_eventos/eventos.json
+on:
+  push:
+    branches: [main]
+    paths:
+      - eventos.json
+      - 'imagenes/**'
+      - .github/workflows/publicar.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    name: Validar y publicar
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar antes de publicar
+        run: python3 tools/validar_eventos.py eventos.json
+      - name: Preparar el sitio (sólo eventos e imágenes)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _site/imagenes
+          cp eventos.json _site/eventos.json
+          find imagenes -maxdepth 1 -type f \( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' -o -name '*.webp' \) \
+            -exec cp {} _site/imagenes/ \;
+          printf '<!doctype html><meta charset="utf-8"><title>TV FULL PRO eventos</title><p>Datos de eventos para TV FULL PRO.</p>' > _site/index.html
+          ls -R _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
