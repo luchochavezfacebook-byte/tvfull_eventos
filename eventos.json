@@ -1737,7 +1737,8 @@
         "Real Madrid",
         "Celta"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/real-madrid-celta.jpg"
     },
     {
       "id": "2026-11-21-o-higgins-vs-universidad-de-chile",
@@ -1960,7 +1961,8 @@
         "Liverpool",
         "Manchester United"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/liverpool-manchester-united.jpg"
     },
     {
       "id": "2026-11-22-werder-bremen-vs-hamburgo",
@@ -2076,7 +2078,8 @@
         "Colo Colo",
         "Universidad Católica"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/colo-colo-catolica.jpg"
     },
     {
       "id": "2026-11-22-river-vs-lanus",
@@ -2093,7 +2096,8 @@
         "River",
         "Lanús"
       ],
-      "destacado": true
+      "destacado": true,
+      "imagen": "imagenes/biblioteca/river-lanus.jpg"
     },
     {
       "id": "2026-11-22-deportes-limache-vs-deportes-la-serena",
