@@ -23,7 +23,7 @@ publiques directo en `main`: el dueño revisa y aprueba cada PR.
    cantidad de eventos por `tipo`, las fuentes que consultaste y cualquier
    duda (hora no confirmada, canal dudoso).
 
-El PR sólo puede cambiar `eventos.json` (y `imagenes/` si te lo piden). El
+El PR sólo puede cambiar `eventos.json` e `imagenes/biblioteca/`. El
 control de GitHub rechaza cualquier otro archivo.
 
 ## Formato de cada evento
@@ -41,6 +41,27 @@ control de GitHub rechaza cualquier otro archivo.
 | `destacado` | `true` sólo en los más importantes de la semana (clásicos, finales, Selección): como máximo 8. |
 
 Cada evento necesita `canales` o `palabras` (mejor los dos).
+
+## Imágenes de los eventos destacados
+
+La app muestra una imagen propia del evento si tiene el campo `imagen`; si no,
+usa la imagen de su deporte. Reglas:
+
+- Ponela **sólo en eventos con `destacado: true`** (máximo 12 por semana).
+- **Imágenes nuevas: sólo de los links que el dueño te pase en el pedido.**
+  Nunca busques, generes ni descargues imágenes por tu cuenta: las fotos de
+  partidos, jugadores, escudos y logos tienen derechos.
+  - Descargá cada link (en Google Drive, usá la descarga directa del archivo).
+  - Convertila a **JPG 960×540** (recortá al centro, sin deformar) de
+    **150 KB como máximo** (bajá la calidad hasta que entre).
+  - Guardala en `imagenes/biblioteca/` con un nombre en minúsculas y guiones
+    que diga qué muestra: `champions-noche.jpg`, `f1-las-vegas.jpg`.
+  - Si un link no se puede descargar o no es una imagen, avisalo en el PR y
+    seguí sin esa imagen.
+- **En `eventos.json` nunca pongas links**: sólo la ruta del archivo guardado,
+  `"imagen": "imagenes/biblioteca/champions-noche.jpg"`.
+- También podés reutilizar las que ya están en `imagenes/biblioteca/` si
+  corresponden al evento. Si ninguna corresponde, **no pongas `imagen`**.
 
 ## Qué eventos cargar
 

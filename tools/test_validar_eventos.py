@@ -1,4 +1,5 @@
 import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -66,6 +67,44 @@ class ValidarEventos(unittest.TestCase):
 
     def test_tamano(self):
         self.assertTrue(validar(base(), 400 * 1024))
+
+
+class ValidarImagenes(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.raiz = Path(self.tmp.name)
+        (self.raiz / "imagenes" / "biblioteca").mkdir(parents=True)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def jpg(self, ruta, kb=40):
+        archivo = self.raiz / ruta
+        archivo.write_bytes(b"\xff\xd8\xff\xe0" + b"0" * (kb * 1024))
+
+    def test_imagen_de_la_biblioteca(self):
+        self.jpg("imagenes/biblioteca/champions-noche.jpg")
+        datos = base(imagen="imagenes/biblioteca/champions-noche.jpg")
+        self.assertEqual(validar(datos, 100, self.raiz), [])
+
+    def test_no_existe_o_ruta_externa(self):
+        self.assertTrue(validar(base(imagen="imagenes/biblioteca/nada.jpg"), 100, self.raiz))
+        self.assertTrue(validar(base(imagen="https://otro.com/a.jpg"), 100, self.raiz))
+        self.assertTrue(validar(base(imagen="imagenes/../eventos.json"), 100, self.raiz))
+
+    def test_pesada_o_falsa(self):
+        self.jpg("imagenes/biblioteca/pesada.jpg", kb=200)
+        (self.raiz / "imagenes" / "biblioteca" / "falsa.jpg").write_text("hola")
+        errores = " ".join(validar(base(), 100, self.raiz))
+        self.assertIn("pesada.jpg", errores)
+        self.assertIn("falsa.jpg", errores)
+
+    def test_maximo_de_eventos_con_imagen(self):
+        self.jpg("imagenes/biblioteca/a.jpg")
+        datos = base(imagen="imagenes/biblioteca/a.jpg")
+        ev = datos["eventos"][0]
+        datos["eventos"] = [dict(ev, id=f"2026-11-18-ev-{i}") for i in range(13)]
+        self.assertTrue(any("con imagen" in e for e in validar(datos, 100, self.raiz)))
 
 
 if __name__ == "__main__":

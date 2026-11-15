@@ -29,7 +29,16 @@ MAX_DURACION = timedelta(hours=12)
 ID = re.compile(r"^[a-z0-9][a-z0-9-]{2,79}$")
 FECHA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HORA_UTC = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?Z$")
-IMAGEN = re.compile(r"^imagenes/[a-z0-9][a-z0-9_-]*\.(jpg|jpeg|png|webp)$")
+IMAGEN = re.compile(
+    r"^imagenes/[a-z0-9][a-z0-9_-]*(/[a-z0-9][a-z0-9_-]*)?\.(jpg|jpeg|png|webp)$"
+)
+# Las TV tienen poca memoria: imágenes livianas y pocas por semana.
+MAX_BYTES_IMAGEN = 150 * 1024
+MAX_EVENTOS_CON_IMAGEN = 12
+FIRMAS = {
+    b"\xff\xd8\xff": "jpg",
+    b"\x89PNG\r\n\x1a\n": "png",
+}
 ENLACE = re.compile(r"(https?://|www\.|\.m3u8?\b|\.ts\b)", re.IGNORECASE)
 
 
@@ -54,8 +63,39 @@ def _lista_textos(valor: object, maximo: int, largo: int) -> bool:
     )
 
 
+def validar_imagen(ruta: Path) -> str | None:
+    """Problema de un archivo de imagenes/, o None si está bien."""
+    tam = ruta.stat().st_size
+    if tam > MAX_BYTES_IMAGEN:
+        return f"{ruta.as_posix()}: pesa {tam // 1024} KB (máximo {MAX_BYTES_IMAGEN // 1024} KB)."
+    cabeza = ruta.read_bytes()[:12]
+    es_webp = cabeza[:4] == b"RIFF" and cabeza[8:12] == b"WEBP"
+    if not es_webp and not any(cabeza.startswith(f) for f in FIRMAS):
+        return f"{ruta.as_posix()}: no es una imagen JPG, PNG o WEBP válida."
+    return None
+
+
+def validar_imagenes(raiz: Path) -> list[str]:
+    errores = []
+    carpeta = raiz / "imagenes"
+    if not carpeta.is_dir():
+        return errores
+    for ruta in sorted(carpeta.rglob("*")):
+        if not ruta.is_file() or ruta.name == ".gitkeep" or ruta.name.lower() == "leeme.md":
+            continue
+        relativa = ruta.relative_to(raiz).as_posix()
+        if not IMAGEN.match(relativa):
+            errores.append(f"{relativa}: nombre no permitido (minúsculas, números y guiones; .jpg, .png o .webp; una subcarpeta como máximo).")
+            continue
+        problema = validar_imagen(ruta)
+        if problema:
+            errores.append(problema)
+    return errores
+
+
 def validar(datos: object, bytes_archivo: int = 0, raiz: Path | None = None) -> list[str]:
     errores: list[str] = []
+    con_imagen = 0
     if bytes_archivo > MAX_BYTES:
         errores.append(f"El archivo pesa {bytes_archivo} bytes (máximo {MAX_BYTES}).")
     if not isinstance(datos, dict):
@@ -152,6 +192,7 @@ def validar(datos: object, bytes_archivo: int = 0, raiz: Path | None = None) -> 
                 errores.append(f"{nombre}: `imagen` tiene que ser una ruta dentro de imagenes/.")
             elif raiz is not None and not (raiz / imagen).is_file():
                 errores.append(f"{nombre}: no existe {imagen}.")
+            con_imagen += 1
 
         for campo in ("titulo", "competencia"):
             if isinstance(ev.get(campo), str) and ENLACE.search(ev[campo]):
@@ -160,6 +201,10 @@ def validar(datos: object, bytes_archivo: int = 0, raiz: Path | None = None) -> 
             if ENLACE.search(valor):
                 errores.append(f"{nombre}: `canales` y `palabras` no pueden tener enlaces.")
                 break
+    if con_imagen > MAX_EVENTOS_CON_IMAGEN:
+        errores.append(f"Hay {con_imagen} eventos con imagen (máximo {MAX_EVENTOS_CON_IMAGEN}): dejala sólo en los destacados.")
+    if raiz is not None:
+        errores.extend(validar_imagenes(raiz))
     return errores
 
 
