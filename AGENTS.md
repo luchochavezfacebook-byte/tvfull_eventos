@@ -31,13 +31,13 @@ control de GitHub rechaza cualquier otro archivo.
 | Campo | Regla |
 | --- | --- |
 | `id` | `AAAA-MM-DD-` + nombre corto en minúsculas con guiones: `2026-11-18-arg-bra` |
-| `titulo` | `Equipo A vs Equipo B`, `GP de Brasil - Carrera`, `UFC 310: Pantoja vs Asakura`. Máximo 80 caracteres. |
+| `titulo` | **En español, como se dice en Argentina**: `Alemania vs Países Bajos` (no `Germany vs Netherlands`), `Islas Feroe vs Moldavia`, `GP de Las Vegas - Carrera`, `UFC 310: Pantoja vs Asakura`. Clubes con su nombre habitual (`Bayern Múnich`, `Inter`, `Manchester United`). Máximo 80 caracteres. |
 | `competencia` | Torneo o liga: `Liga Profesional`, `Copa Libertadores`, `Fórmula 1`. |
 | `tipo` | Uno de: `futbol`, `automovilismo`, `boxeo`, `mma`, `basquet`, `tenis`, `musica`, `otros`. |
 | `inicio` | Hora oficial de comienzo **convertida a UTC**, terminada en `Z`. 20:00 de Argentina = `23:00:00Z`. |
 | `fin` | Inicio + duración típica: fútbol 2 h 15 min, básquet 2 h 30 min, carrera de F1 2 h, MotoGP 1 h, cartelera principal de UFC 3 h, boxeo 3 h, tenis 3 h, música 3 h. |
-| `canales` | Señales de TV que lo transmiten en Argentina o Chile, escritas como se conocen: `ESPN`, `ESPN 2`, `TNT Sports`, `TyC Sports`, `Fox Sports`, `TV Pública`, `DAZN 1`, `Disney+ Premium`, `TNT Sports Chile`, `Chilevisión`. Máximo 6. Nunca direcciones ni enlaces. |
-| `palabras` | 2 o 3 palabras que identifican el evento en el nombre de un canal de eventos: nombres de equipos o apellidos de los peleadores (`["Boca", "River"]`, `["Pantoja", "Asakura"]`). Nada genérico como `vs`, `fecha` o `final`. |
+| `canales` | **Todas** las señales oficiales que lo transmiten en Argentina o Chile, escritas como se conocen: `ESPN`, `ESPN 2`, `TNT Sports`, `TyC Sports`, `Fox Sports`, `TV Pública`, `DAZN 1`, `Disney+ Premium`, `TNT Sports Chile`, `Chilevisión`. No las limites a las de una lista en particular: la app muestra cada evento sólo en las listas que tienen alguno de estos canales. Máximo 6. Nunca direcciones ni enlaces. |
+| `palabras` | 2 palabras (3 como máximo) que identifican el evento en el nombre de un canal de eventos, **en español**: nombres cortos de equipos o apellidos de los peleadores (`["Boca", "River"]`, `["Alemania", "Países Bajos"]`, `["Pantoja", "Asakura"]`). En NBA, el apodo del equipo (`["Celtics", "Warriors"]`). La app exige que estén **todas** en el nombre del canal: usá la forma más corta y común (`Real Madrid` y `Celta`, no `RC Celta de Vigo`). Nada genérico como `vs`, `fecha` o `final`. |
 | `destacado` | `true` sólo en los más importantes de la semana (clásicos, finales, Selección): como máximo 8. |
 
 Cada evento necesita `canales` o `palabras` (mejor los dos).
@@ -64,8 +64,11 @@ Entre 40 y 150 por semana, priorizando el público de Argentina y Chile:
   grillas de las señales (ESPN, TNT Sports, TyC Sports, Fox Sports, DAZN,
   Disney+). Si podés, confirmá la hora en dos fuentes.
 - Copiá sólo datos (equipos, hora, señal), nunca textos ni imágenes.
-- **No inventes.** Si una hora no está confirmada, no cargues el evento. Si
-  no estás seguro del canal, dejá `canales` vacío y usá sólo `palabras`.
+- **No inventes.** Si una hora no está confirmada, no cargues el evento.
+- **Buscá el canal.** Para cada partido, revisá la grilla oficial de las
+  señales que tienen los derechos de esa competencia en Argentina y Chile.
+  Dejá `canales` vacío sólo si de verdad no aparece en ninguna grilla; en ese
+  caso las `palabras` son lo único que permite encontrarlo.
 - Nunca agregues enlaces, direcciones de streams, listas M3U ni datos de
   proveedores de IPTV.
 - No toques otros archivos del repositorio.
