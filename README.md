@@ -29,3 +29,18 @@ sólo `eventos.json` e `imagenes/`.
 cd tools && python3 -m unittest test_validar_eventos && cd ..
 python3 tools/validar_eventos.py eventos.json
 ```
+
+## Imágenes para los eventos destacados
+
+Las imágenes van en `imagenes/biblioteca/`. Se las pasás a Codex como links
+en el pedido semanal (él las descarga, las achica y las guarda), o las subís
+vos en GitHub (**Add file → Upload files** dentro de esa carpeta). Codex nunca
+busca imágenes por su cuenta. El control automático rechaza las que no cumplan:
+
+- **JPG** (o PNG/WEBP) de **960×540**, de **150 KB como máximo**.
+- Nombre en minúsculas con guiones que diga qué muestra:
+  `champions-noche.jpg`, `clasico-argentino.jpg`, `f1-noche.jpg`.
+- **Genéricas**: sin personas reconocibles, escudos, camisetas reales ni
+  logos de ligas o canales.
+- La parte de abajo un poco oscura (ahí va el texto de la tarjeta).
+

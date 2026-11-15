@@ -24,14 +24,14 @@ jobs:
         run: cd tools && python3 -m unittest -v test_validar_eventos
       - name: Validar eventos.json
         run: python3 tools/validar_eventos.py eventos.json
-      - name: Los PR semanales sólo tocan eventos.json e imagenes/
+      - name: Los PR semanales sólo tocan eventos.json e imagenes/biblioteca/
         if: github.event_name == 'pull_request' && startsWith(github.head_ref, 'eventos/')
         shell: bash
         run: |
           set -euo pipefail
           otros=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" \
-            | grep -vE '^(eventos\.json|imagenes/[a-z0-9_-]+\.(jpg|jpeg|png|webp))$' || true)
+            | grep -vE '^(eventos\.json|imagenes/biblioteca/[a-z0-9][a-z0-9_-]*\.(jpg|jpeg|png|webp))$' || true)
           if [ -n "$otros" ]; then
-            echo "::error::Un PR de eventos sólo puede cambiar eventos.json e imagenes/. También cambia: $otros"
+            echo "::error::Un PR de eventos sólo puede cambiar eventos.json e imagenes/biblioteca/. También cambia: $otros"
             exit 1
           fi
